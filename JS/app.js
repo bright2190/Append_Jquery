@@ -46,7 +46,7 @@ $(document).ready(() =>{
            $(".close").click(() => {
                 $(".modal").hide(500);
 
-                $("body").css("background-color", "blueviolet")
+                $("body").css("background-color", "yellowgreen")
 
                 // $("body").css("opacity", "1")
 
@@ -55,7 +55,7 @@ $(document).ready(() =>{
             $("#btn100").click(() => {
                     $(".modal").hide(500);
 
-                    $("body").css("background-color", "blueviolet")
+                    $("body").css("background-color", "yellowgreen")
             
             })
         }
@@ -114,7 +114,7 @@ $(document).ready(() =>{
            $(".close").click(() => {
                 $(".modal").hide(500);
 
-                $("body").css("background-color", "blueviolet")
+                $("body").css("background-color", "yellowgreen")
 
                 // $("body").css("opacity", "1")
 
@@ -123,7 +123,7 @@ $(document).ready(() =>{
             $("#btn100").click(() => {
                     $(".modal").hide(500);
 
-                    $("body").css("background-color", "blueviolet")
+                    $("body").css("background-color", "yellowgreen")
             
             })
         }
@@ -178,7 +178,7 @@ $(document).ready(() =>{
            $(".close").click(() => {
                 $(".modal").hide(500);
 
-                $("body").css("background-color", "blueviolet")
+                $("body").css("background-color", "yellowgreen")
 
                 // $("body").css("opacity", "1")
 
@@ -187,7 +187,7 @@ $(document).ready(() =>{
             $("#btn100").click(() => {
                     $(".modal").hide(500);
 
-                    $("body").css("background-color", "blueviolet")
+                    $("body").css("background-color", "yellowgreen")
             
             })
         }
@@ -243,7 +243,7 @@ $(document).ready(() =>{
            $(".close").click(() => {
                 $(".modal").hide(500);
 
-                $("body").css("background-color", "blueviolet")
+                $("body").css("background-color", "yellowgreen")
 
                 // $("body").css("opacity", "1")
 
@@ -252,7 +252,7 @@ $(document).ready(() =>{
             $("#btn100").click(() => {
                     $(".modal").hide(500);
 
-                    $("body").css("background-color", "blueviolet")
+                    $("body").css("background-color", "yellowgreen")
             
             })
         }
