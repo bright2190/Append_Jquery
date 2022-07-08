@@ -11,3 +11,15 @@ table, th, td{
 input{
     margin-right: 10px;
 }
+
+body{
+    background-color: yellowgreen;
+}
+
+.container-fluid {
+    width: 90%;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
