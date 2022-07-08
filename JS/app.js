@@ -1,7 +1,9 @@
 $(document).ready(() =>{
+
     $("#btn1").click(() =>{
-        var name = $("#name").val();
-        var c1 = $("#class").val();
+
+        let name = $("#name").val();
+        let c1 = $("#class").val();
 
         if(name != '' && c1 != '') {
             
@@ -33,9 +35,10 @@ $(document).ready(() =>{
                 </div>
             </div>
         </div>
-           `;
+           `;           
+           
 
-           $("body").prepend(modal)
+           $("body").append(modal)
 
            $("body").css("background-color", "rgba(0, 0, 0, 0.2)")
 
@@ -67,14 +70,14 @@ $(document).ready(() =>{
 
 $(document).ready(() =>{
     $("#btn2").click(() =>{
-        var name = $("#name").val();
-        var c2 = $("#class").val();
+        let name = $("#name").val();
+        let c2 = $("#class").val();
         
 
-        if(name != '' && c1 != '') {
+        if(name != '' && c2 != '') {
             
-            var row = "<tr><td>" + name + "</td><td>" + c1 + "</td></tr>";
-            $("table tbody").append(row);
+            var row = "<tr><td>" + name + "</td><td>" + c2 + "</td></tr>";
+            $("table tbody").prepend(row);
 
             $("#name").val("")
             $("#class").val("")
@@ -102,6 +105,7 @@ $(document).ready(() =>{
             </div>
         </div>
            `;
+           
 
            $("body").prepend(modal)
 
@@ -133,12 +137,12 @@ $(document).ready(() =>{
 
 $(document).ready(() =>{
     $("#btn3").click(() =>{
-        var name = $("#name").val();
-        var c3 = $("#class").val();
-        if(name != '' && c1 != '') {
+        let name = $("#name").val();
+        let c3 = $("#class").val();
+        if(name != '' && c3 != '') {
             
-            var row = "<tr><td>" + name + "</td><td>" + c1 + "</td></tr>";
-            $("table tbody").append(row);
+            var row = "<tr><td>" + name + "</td><td>" + c3 + "</td></tr>";
+            $("table tbody").after(row);
 
             $("#name").val("")
             $("#class").val("")
@@ -167,7 +171,7 @@ $(document).ready(() =>{
         </div>
            `;
 
-           $("body").prepend(modal)
+           $("body").after(modal)
 
            $("body").css("background-color", "rgba(0, 0, 0, 0.2)")
 
@@ -197,12 +201,12 @@ $(document).ready(() =>{
 
 $(document).ready(() =>{
     $("#btn4").click(() =>{
-        var name = $("#name").val();
-        var c4 = $("#class").val();
+        let name = $("#name").val();
+        let c4 = $("#class").val();
 
-        if(name != '' && c1 != '') {
+        if(name != '' && c4 != '') {
             
-            var row = "<tr><td>" + name + "</td><td>" + c1 + "</td></tr>";
+            var row = "<tr><td>" + name + "</td><td>" + c4 + "</td></tr>";
             $("table tbody").append(row);
 
             $("#name").val("")
@@ -232,7 +236,7 @@ $(document).ready(() =>{
         </div>
            `;
 
-           $("body").prepend(modal)
+           $("body").before(modal)
 
            $("body").css("background-color", "rgba(0, 0, 0, 0.2)")
 
