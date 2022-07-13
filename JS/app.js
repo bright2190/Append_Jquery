@@ -30,7 +30,7 @@ $(document).ready(() =>{
                     </div>
     
                     <div class="modal-footer">
-                        <button id="btn100" class="btn btn-danger" data-dismiss=".modal">Close</button>
+                        <button class="btn btn-danger btn101">Close</button>
                     </div>
                 </div>
             </div>
@@ -55,12 +55,27 @@ $(document).ready(() =>{
 
             })
             
-            $("#btn100").click(() => {
+            $(".btn101").click(() => {
                     $(".modal").hide(500);
 
                     $("body").css("background-color", "yellowgreen")
+
+                    document.querySelector(".btn101").classList.add("btn102")
+
+                    document.querySelector(".btn101").classList.remove("btn101")
             
             })
+
+            $(".btn102").click(() => {
+                $(".modal").hide(500);
+
+                $("body").css("background-color", "yellowgreen")
+
+                document.querySelector(".btn102").classList.add("btn101")
+
+                document.querySelector(".btn102").classList.remove("btn102")
+        
+        })
         }
 
         
@@ -229,7 +244,7 @@ $(document).ready(() =>{
                     </div>
     
                     <div class="modal-footer">
-                        <button id="btn100" class="btn btn-danger" data-dismiss=".modal">Close</button>
+                        <button  class="btn btn-danger btn103" data-dismiss=".modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -251,14 +266,33 @@ $(document).ready(() =>{
 
                 // $("body").css("opacity", "1")
 
-            })
-            
-            $("#btn100").click(() => {
-                    $(".modal").hide(500);
 
-                    $("body").css("background-color", "yellowgreen")
-            
             })
+
+                
+            $(".btn103").click(() => {
+                $(".modal").hide(500);
+
+                $("body").css("background-color", "yellowgreen")
+
+                document.querySelector(".btn103").classList.add("btn104")
+
+                document.querySelector(".btn103").classList.remove("btn103")
+        
+        })
+
+        $(".btn104").click(() => {
+            $(".modal").hide(500);
+
+            $("body").css("background-color", "yellowgreen")
+
+            document.querySelector(".btn104").classList.add("btn103")
+
+            document.querySelector(".btn104").classList.remove("btn104")
+    
+    })
+            
+            
         }
 
 
